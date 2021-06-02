@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert Date</title>
+</head>
+
+<script src="convert.js"></script>
+<script>  document.addEventListener('DOMContentLoaded', function(){
+        start(); });
+</script>
+
+<body>
+<div style="margin: auto; width: 50% ; text-align: center; border-color: black; border-style: solid ; padding: 5px; background: aliceblue">
+    <h2>Welcome to convert date web</h2>
+    <h5>Please choose a date from 1.1.1900</h5>
+    <label for="date">pick a date:</label>
+    <input type="date" id="date" min="1900-01-01">
+    <input type="submit" id="subButton">
+    <div>
+        <p id="hebDate" style="display: none"></p>
+    </div>
+</div>
+<br/>
+<div style="margin: auto; width: 50% ; text-align: center; border-color: black; border-style: solid ; padding: 5px; background: aliceblue">
+    <p> Credit to <a href="https://www.hebcal.com/home/219/hebrew-date-converter-rest-api"> hebcal api</a> for their work.
+</div>
+</body>
+</html>
